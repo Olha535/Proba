@@ -8,4 +8,14 @@ new Swiper('.image-slider', {
 
     touchRatio: 5,
     grabCursor: true,
+
+    thumbs: {
+        swiper: {
+            el: '.image-mini-slider',
+            slidesPerView: 50,
+           
+        }
+    },
+
+    
 });

@@ -9,32 +9,55 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <div class="image-slider swiper-container">
-      <div class="image-slider__wrapper swiper-wrapper">
-        <div class="image-slider__slide swiper-slide">
-          <div class="image-slider__image">
-            <img src="images/testimonials1.jpg" />
+    <div class="container">
+      <div class="image-slider swiper-container">
+        <div class="image-slider__wrapper swiper-wrapper">
+          <div class="image-slider__slide swiper-slide">
+            <div class="image-slider__image">
+              <img src="images/testimonials1.jpg" />
+            </div>
+          </div>
+          <div class="image-slider__slide swiper-slide">
+            <div class="image-slider__image">
+              <img src="images/testimonials2.jpg" />
+            </div>
+          </div>
+          <div class="image-slider__slide swiper-slide">
+            <div class="image-slider__image">
+              <img src="images/testimonials3.jpg" />
+            </div>
           </div>
         </div>
-        <div class="image-slider__slide swiper-slide">
-          <div class="image-slider__image">
-            <img src="images/testimonials2.jpg" />
+        <p class="image-slider__text">
+          Nullam viverra consectetuer. Quisque cursus et, porttitor risus.
+          Aliquam sem. In hendrerit nulla quam nunc, accumsan congue. Lorem
+          ipsum primis in nibh vel risus.
+        </p>
+        <div class="swiper-pagination"></div>
+      </div>
+
+      <p class="image-slider__city">Emily, Los Angeles</p>
+
+      <div class="image-mini-slider swiper-container">
+        <div class="image-mini-slider__wrapper swiper-wrapper">
+          <div class="image-mini-slider__slide swiper-slide">
+            <svg class="image-mini-slider__image" width="13" height="12">
+              <use href="./images/sprite.svg#icon-vector-1"></use>
+            </svg>
           </div>
-        </div>
-        <div class="image-slider__slide swiper-slide">
-          <div class="image-slider__image">
-            <img src="images/testimonials3.jpg" />
+          <div class="image-mini-slider__slide swiper-slide">
+            <svg class="image-mini-slider__image" width="13" height="12">
+              <use href="./images/sprite.svg#icon-vector-1"></use>
+            </svg>
+          </div>
+          <div class="image-mini-slider__slide swiper-slide">
+            <svg class="image-mini-slider__image" width="13" height="12">
+              <use href="./images/sprite.svg#icon-vector-1"></use>
+            </svg>
           </div>
         </div>
       </div>
-      <p class="image-slider__text">
-        Nullam viverra consectetuer. Quisque cursus et, porttitor risus. Aliquam
-        sem. In hendrerit nulla quam nunc, accumsan congue. Lorem ipsum primis
-        in nibh vel risus.
-      </p>
-      <div class="swiper-pagination"></div>
     </div>
-    <p class="image-slider__city">Emily, Los Angeles</p>
 
     <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
     <script src="js/script.js"></script>
